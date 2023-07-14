@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+@font-face {
+    font-family: Provicali;
+    src: url(./assets/Provicali.otf);
+}
+
+.bg-1{
+    background-image: url('./assets/bg-dark.jpg');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-color: black;
+    background-size: contain;
+  
+}
+
+.bg-2{
+    background-image: url('./assets/liquid-bg-4.jpg');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+  
+}
+
+.provicali{
+    font-family: 'Provicali', sans-serif;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    scroll-behavior: smooth;
+}
